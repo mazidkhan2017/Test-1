@@ -35,7 +35,7 @@ fs.readdir(dirBuf, (err, files) => {
         };
    
     // Pass array to function for sorting
-    var sortedResult = mergeSort([1,4,2,6,3,7,5,9]) // Need to pass fetched value from Txt file Majid
+    var sortedResult = mergeSort(newArray)
     
     // Truncate all content from file
     fs.writeFile(filePath, '', function(){console.log('done')})
