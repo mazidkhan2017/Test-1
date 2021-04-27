@@ -1,4 +1,6 @@
 # This project contain 3 files
+# Also trying to explain from image part-1, part-2 and part-3
+
   1. Part-1 :- First file contain code for Split single file into chunks(Multiple file).
   2. Part-2 :- Second file contain logic for read chunks file directory and sort it using merge sort and then update existing all files with updated sorted data.
   3. Part-3 :- Third file contain logic for read first index value of every sorted file and then save/append these data in another final file, before storing 
