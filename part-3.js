@@ -29,8 +29,10 @@ const readSortedFileDirectory =()=>{
         // Sort final array data using heapsort.
           var sortedArray = heapSort(finalArray)
           writeFinalOutPutFile(sortedArray)
-          finalArray = [] // Empty array
-          readSortedFileDirectory() // Call function recursively...
+          finalArray = [] // Empty array after write it to final output file
+       
+         if(files.length>0)
+            readSortedFileDirectory() // Call function recursively...
       });
 }
 
@@ -127,6 +129,3 @@ function swapValue(inputArray, parentIndex, maxIndex){
     inputArray[parentIndex] = inputArray[maxIndex]
     inputArray[maxIndex] = temp
 }
-
-// Execute program from here...
-console.log(readSortedFileDirectory())
