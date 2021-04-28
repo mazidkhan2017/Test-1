@@ -1,6 +1,8 @@
 # Test-1
       > This Test-1 project Contain 3 files
       > I am using merge sort Algorith and Heap sort Algorith to solve this problem(Test1 Problem).
+      > At the time of final output file generation I am using Heap Sort because its memory usage is minimal because apart from what is necessary to hold the initial list         of items to be sorted, it needs no additional memory space to work.
+      > I am using Merge Sort because It is quicker for larger lists, merge sort uses the technique of divide, conquer and combine, It can be applied to files of any size.
 
 # 1. Part-1 (File Splitter)
       This file contain the code to split functionality of 1 large file to small files.
